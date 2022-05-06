@@ -1,6 +1,9 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
+}
+a {
+  text-decoration: none;
 }
 
 .about-my-profession {
@@ -30,6 +33,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
+  margin-top: 40px;
 }
 
 .about-me-name {
@@ -68,6 +72,11 @@ body {
   color: #595959;
   margin-left: 5px;
 }
+
+.my-project-link:hover {
+  color: rgba(251, 109, 58, 1);
+}
+
 .my-project-text {
   font-size: 14px;
   font-style: normal;
@@ -102,12 +111,17 @@ body {
   margin: 0 0 10px 0;
 }
 
+.my-work-expirience-text {
+  font-size: 15px;
+}
+
 .my-work-expirience-period {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  margin-bottom: 15px;
 }
 
 .my-work-expirience-divider {
@@ -129,9 +143,9 @@ body {
 
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
+  width: 320px;
   padding-top: 40px;
-  height: 1356px;
+  height: 1770px;
 }
 
 .contacts-section {
@@ -159,6 +173,9 @@ body {
   color: #fff;
   margin-right: 7px;
 }
+.contacts-section-block {
+  display: flex;
+}
 
 .contacts-section-link {
   color: #565e6a;
@@ -166,6 +183,11 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin: 5px;
+}
+
+.contacts-section-link:hover {
+  color: #fb6d3a;
 }
 
 .tech-skills-list {
