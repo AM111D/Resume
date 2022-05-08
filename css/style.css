@@ -23,6 +23,26 @@ a {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+@media (width: 375px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+/* Минимальная ширина */
+@media (min-width: 768px) {
+  .main-container {
+    width: 800px;
+  }
+}
+
+/* Максимальная ширина */
+@media (max-width: 1024px) {
+  .main-container {
+    width: 850px;
+  }
+}
+
 /*Main-content-section*/
 
 .main-content-section {
