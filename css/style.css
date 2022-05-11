@@ -32,7 +32,7 @@ a {
 /* Минимальная ширина */
 @media (min-width: 768px) {
   .main-container {
-    width: 800px;
+    /* width: 800px; */
   }
 }
 
