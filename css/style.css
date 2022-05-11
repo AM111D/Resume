@@ -23,11 +23,11 @@ a {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-@media (width: 375px) {
+/* @media (width: 375px) {
   .main-container {
     width: 100%;
   }
-}
+} */
 
 /* Минимальная ширина */
 @media (min-width: 768px) {
@@ -165,7 +165,6 @@ a {
   background-color: #1e2939;
   width: 320px;
   padding-top: 40px;
-  height: 1770px;
 }
 
 .contacts-section {
